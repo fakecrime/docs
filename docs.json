@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "linden",
   "name": "fakecrime | Documentation",
   "colors": {
     "primary": "#F97316",
@@ -15,40 +15,19 @@
         "groups": [
           {
             "group": "Overview",
-            "pages": ["pages/index", "pages/quickstart", "pages/development"]
+            "pages": ["index", "changelog", "faq"]
           },
           {
-            "group": "Customization",
-            "pages": [
-              "pages/essentials/settings",
-              "pages/essentials/navigation"
-            ]
+            "group": "Guides",
+            "pages": ["guides/account-deletion", "guides/multi-accounting"]
           },
           {
-            "group": "Writing content",
+            "group": "Troubleshooting",
             "pages": [
-              "pages/essentials/markdown",
-              "pages/essentials/code",
-              "pages/essentials/images",
-              "pages/essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": ["pages/api-reference/introduction"]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "pages/api-reference/endpoint/get",
-              "pages/api-reference/endpoint/create",
-              "pages/api-reference/endpoint/delete",
-              "pages/api-reference/endpoint/webhook"
+              "troubleshooting/account",
+              "troubleshooting/discord",
+              "troubleshooting/login",
+              "troubleshooting/verification"
             ]
           }
         ]
@@ -56,8 +35,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/zap.png",
+    "dark": "/logo/zap.png"
   },
   "navbar": {
     "links": [
