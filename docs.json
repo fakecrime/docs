@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
+  "theme": "almond",
   "name": "fakecrime | Documentation",
   "colors": {
     "primary": "#F97316",
@@ -15,11 +15,29 @@
         "groups": [
           {
             "group": "Overview",
-            "pages": ["index", "changelog", "faq"]
+            "pages": ["overview/introduction", "overview/changelog", "overview/faq", "overview/shop"]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "customization/badges",
+              "customization/links",
+              "customization/showcases",
+              "customization/tags",
+              "customization/tracks"
+            ]
           },
           {
             "group": "Guides",
-            "pages": ["guides/account-deletion", "guides/multi-accounting"]
+            "pages": ["guides/markdown", "guides/premium"]
+          },
+          {
+            "group": "Imagehost",
+            "pages": ["imagehost/configuration", "imagehost/gallery"]
+          },
+          {
+            "group": "Events",
+            "pages": ["events/information", "events/rules", "events/participation"]
           },
           {
             "group": "Troubleshooting",
@@ -41,12 +59,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Discord",
-        "href": "https://discord.gg/fakecrime"
-      },
-      {
-        "label": "Support",
-        "href": "https://fakecrime.bio/support"
+        "label": "Home",
+        "href": "https://fakecrime.bio"
       }
     ],
     "primary": {
